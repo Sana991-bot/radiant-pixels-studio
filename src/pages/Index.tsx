@@ -5,7 +5,7 @@ import heroPortrait from "@/assets/hero-portrait.png";
 
 const Home = () => {
   return (
-    <div className="min-h-screen bg-background relative overflow-hidden noise-bg">
+    <div className="min-h-screen bg-background relative overflow-x-hidden noise-bg">
       {/* Grid overlay */}
       <div className="absolute inset-0 z-0 opacity-[0.03]" style={{
         backgroundImage: "linear-gradient(hsl(0 0% 50%) 1px, transparent 1px), linear-gradient(90deg, hsl(0 0% 50%) 1px, transparent 1px)",
